@@ -1,7 +1,7 @@
-# Quizz para descobrir qual é o seu poema da mótus
+# Quiz para descobrir qual é o seu poema da Motus!
 
-Este site foi desenvolvido por alunos da Unipampa, do grupo de extensão Programa C e tem o intuito de mostrar as poesias feitas pelo projeto Mótus.
-Nele será apresentando um poema de uma das edições do projeto Mótus.
+Este site foi desenvolvido por alunos da Unipampa, do grupo de extensão Programa C e tem o intuito de mostrar as poesias feitas pelo projeto Motus.
+Nele será apresentando um poema de uma das edições do projeto Motus.
 
 ## Edições da Mótus:
 

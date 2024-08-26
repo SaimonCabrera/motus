@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const options = document.querySelectorAll(".option");
     const submitButton = document.getElementById("submit");
     const resultContainer = document.getElementById("result");
+    const questionContainers = document.querySelectorAll(".question-container");
     const answers = {};
 
     options.forEach(option => {
@@ -22,8 +23,11 @@ document.addEventListener("DOMContentLoaded", function() {
             answers[questionIndex] = this.getAttribute("data-correspondência");
 
             // verifica se todas as questões foram respondidas
-            if (Object.keys(answers).length === document.querySelectorAll(".question-container").length) {
-                submitButton.style.display = "block";
+            if (questionIndex < questionContainers.length - 1) {
+                questionContainers[questionIndex + 1].scrollIntoView({ behavior: "smooth" });
+            } else {
+                submitButton.style.display = "block"; // Show submit button on the last question
+                submitButton.scrollIntoView({ behavior: "smooth" });
             }
         });
     });
@@ -31,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
     submitButton.addEventListener("click", function() {
         let result = calculateResult(answers);
         displayResult(result);
+        resultContainer.scrollIntoView({ behavior: "smooth" });
     });
 
     function calculateResult(answers) {
@@ -97,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   "imagens/motus6/imagem5.jpg", "imagens/motus6/imagem6.jpg", "imagens/motus6/moderno.jpg", "imagens/motus6/Oretorno.jpg",
                    "imagens/motus6/Ostons.jpg", "imagens/motus6/Ouvidosmoucos.jpg", "imagens/motus6/quadro.jpg", "imagens/motus6/Quemnunca.jpg"
             ],
-            "motus?": [
+            "motus": [
                 "imagens/motus?/.jpg", "imagens/motus?/.jpg"
                 //motus 1 ou 7 ou 8 preciso das imagens
             ]
