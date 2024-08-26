@@ -1,0 +1,82 @@
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    font-family: Anton, sans-serif;
+    background-color: #9184a1;
+}
+
+h1 {
+    font-size: 5vw; /* Tamanho do título responsivo baseado na largura da tela */
+    word-wrap: break-word; /* Permite que o texto quebre em várias linhas se necessário */
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.option {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.option:hover {
+    transform: scale(1.05);
+}
+
+.option.selected {
+    border: 2px solid #0f110f; /* Borda para indicar a seleção */
+    background-color: #d6d8d6; /* Cor de fundo  */
+}
+
+.card-img-top {
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#result img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#result a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4cae4c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#result a:hover {
+    background-color: #768076;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 6vw;
+    }
+}
+.card-img-top {
+    width: 100%; /* A imagem ocupa toda a largura do card */
+    height: 200px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Cobre o espaço, cortando a imagem se necessário */
+    border-radius: 5px; /* Bordas arredondadas para as imagens */
+}
+.fixed-size-image {
+    width: 300px; /* Largura fixa */
+    height: 300px; /* Altura fixa */
+    object-fit: cover; /* Cobre a área da imagem mantendo o aspecto */
+    border-radius: 10px; /* Bordas arredondadas para melhorar a aparência */
+}
