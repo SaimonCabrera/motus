@@ -1,0 +1,57 @@
+Cada opção remete alguma edição da mótus e o maior número de opções iguais considera qual edição do poema
+vai aparecer para o usuário. Dentro da edição é escolhido aleatoriamente um poema para o usuário.
+Assim o usuário 20 x 6 opções de poemas, totalizando 120 possibilidades. 
+
+Liberdade de Expressão ou 7 A dança da vida - motus 1  um desses dois
+amor - motus 2
+tempo- motus 3
+olhar com os olhos do outro- motus 4
+resiliência - motus 5
+natureza - motus 6
+
+Pergunta 1 - Qual sua cor favorita?
+
+Preto- resiliência
+Azul- olhar com os olhos do outro
+Verde- natureza 
+Amarelo- tempo
+Branco- 
+Vermelho- amor
+
+Pergunta 2- O que prefere fazer no fim de semana?
+
+Dormir- resiliencia
+Sair para caminhar- tempo
+Explorar a natureza - natureza
+Ir ao cinema- olhar com os olhos do outro
+Ir na balada- 
+Comer- amor
+
+Pergunta 3- Qual banca combina mais com você?
+
+Beatles- tempo
+Calcinha preta- amor
+Guns n roses - natureza
+Kid abelha- olhar com os olhos do outro
+Legião urbana- resiliência
+Mamonas assassinas- 
+
+Pergunta 4- Escolha um país para conhecer?
+
+Argentina- natureza
+Egito- tempo
+Estados Unidos- 
+Japão- resiliência
+Austrália- olhar com os olhos do outro
+Grécia- amor
+
+Pergunta 5- Qual seu gênero de livro favorito?
+
+Romance- amor
+Drama- natureza 
+Fantasia- resiliência
+Suspense- olhar com os olhos do outro
+Biografia- tempo
+Terror- 
+
+
