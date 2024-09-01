@@ -7,15 +7,18 @@
     <!-- abaixo o import da font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container my-5">
-        <h1 class="text-center mb-4">Qual poema da Motus é para você?</h1>
-        <h2>Bora descobrir qual é o seu poema Mótus? Responda o quiz e descubra!</h2>
+        <div class="d-flex justify-content-center align-items-center mb-4">
+            <img src="imagens/logo.png" alt="Logo" class="me-3" style="height: 150px;">
+            <h1 class="text-center">Qual obra da Motus é para você?</h1>
+        </div>
+        <h3>Responda o quiz e descubra!</h3>
         <br>
         <div id="quiz">
             <div class="question-container mb-4">
@@ -73,7 +76,7 @@
             </div> 
             <!-- fim pergunta 1-->
             <div class="question-container mb-4">
-                <h2>O que você prefere fazer no fim de semana?</h2>
+                <h2>O que você faz no fim de semana?</h2>
                 <div class="row">
                     <div class="col-6 col-sm-4 mb-3">
                         <div class="option card" data-correspondência="resiliencia">
@@ -127,53 +130,53 @@
             </div>
             <!-- fim pergunta 2-->
             <div class="question-container mb-4">
-                <h2>Qual banda combina mais com você?</h2>
+                <h2>Qual é o seu estilo de música?</h2>
                 <div class="row">
                     <div class="col-6 col-sm-4 mb-3">
                         <div class="option card" data-correspondência="tempo">
-                            <img src="imagens/bandas/beatles.jpg" class="card-img-top" alt="Beatles">
+                            <img src="imagens/musica/rock.png" class="card-img-top" alt="rock">
                             <div class="card-body text-center">
-                                <p class="card-text">Beatles</p>
+                                <p class="card-text">Rock</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 mb-3">
                         <div class="option card" data-correspondência="amor">
-                            <img src="imagens/bandas/calcinha-preta.jpg" class="card-img-top" alt="Calcinha-preta">
+                            <img src="imagens/musica/sertanejo.png" class="card-img-top" alt="sertanejo">
                             <div class="card-body text-center">
-                                <p class="card-text">Calcinha Preta</p>
+                                <p class="card-text">Sertanejo</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 mb-3">
                         <div class="option card" data-correspondência="natureza">
-                            <img src="imagens/bandas/Guns.png" class="card-img-top" alt="Guns-n-roses">
+                            <img src="imagens/musica/pop.png" class="card-img-top" alt="pop">
                             <div class="card-body text-center">
-                                <p class="card-text">Guns N' Roses</p>
+                                <p class="card-text">Pop</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 mb-3">
                         <div class="option card" data-correspondência="olhar">
-                            <img src="imagens/bandas/kid_abelha.jpg" class="card-img-top" alt="Kid-abelha">
+                            <img src="imagens/musica/eletronica.jpg" class="card-img-top" alt="eletronica">
                             <div class="card-body text-center">
-                                <p class="card-text">Kid Abelha</p>
+                                <p class="card-text">Eletrônica</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 mb-3">
                         <div class="option card" data-correspondência="resiliencia">
-                            <img src="imagens/bandas/legião_urbana.jpg" class="card-img-top" alt="Legiao-urbana">
+                            <img src="imagens/musica/rap.png" class="card-img-top" alt="rap">
                             <div class="card-body text-center">
-                                <p class="card-text">Legião Urbana</p>
+                                <p class="card-text">Rap</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-6 col-sm-4 mb-3">
                         <div class="option card" data-correspondência="olhar">
-                            <img src="imagens/bandas/mamonas-assassinas.png" class="card-img-top" alt="Mamonas-assassinas">
+                            <img src="imagens/musica/gaucha.png" class="card-img-top" alt="gaucha">
                             <div class="card-body text-center">
-                                <p class="card-text">Mamonas Assassinas</p>
+                                <p class="card-text">Gaúcha</p>
                             </div>
                         </div>
                     </div>
@@ -235,7 +238,7 @@
             </div>
             <!-- fim pergunta 4-->
             <div class="question-container mb-4">
-                <h2>Qual seu gênero de livro favorito?</h2>
+                <h2>Qual é o seu gênero de livro?</h2>
                 <div class="row">
                     <div class="col-6 col-sm-4 mb-3">
                         <div class="option card" data-correspondência="amor">
@@ -292,6 +295,12 @@
             <div id="result"></div>
         </div>
     </div>
+
+    <footer class="text-center mt-5 py-3 bg-light">
+        <p><img src="imagens/logoprogramac.png"  alt="logoprogramac" style="height: 80px";>- Programa de extensão UNIPAMPA</p>
+        <p>&copy; 2024 Universidade Federal do Pampa. Todos os direitos reservados.</p>
+        <p>Av. Tiarajú, 810 - Bairro Ibirapuitã - Alegrete, RS - 97546-550 - Fone +55 55 3421 8400</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>

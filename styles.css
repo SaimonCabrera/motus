@@ -1,17 +1,19 @@
-.anton-regular {
-    font-family: "Anton", sans-serif;
+.merriweather-regular {
+    font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+
 body {
-    font-family: Anton, sans-serif;
-    background-color: #9184a1;
+    font-family: "Merriweather", serif;
+    background-color: #FAF3E0;
+    color: #2F4F4F;
 }
 
-h1 {
+h1,h2 {
     font-size: 5vw; /* Tamanho do título responsivo baseado na largura da tela */
     word-wrap: break-word; /* Permite que o texto quebre em várias linhas se necessário */
+    color: #800020;
 }
 
 .question-container {
@@ -28,8 +30,8 @@ h1 {
 }
 
 .option.selected {
-    border: 2px solid #0f110f; /* Borda para indicar a seleção */
-    background-color: #d6d8d6; /* Cor de fundo  */
+    border: 2px solid #800020; /* Borda para indicar a seleção */
+    background-color: white; /* Cor de fundo  */
 }
 
 .card-img-top {
@@ -52,15 +54,33 @@ h1 {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #4cae4c;
-    color: white;
+    background-color: #2F4F4F; /* Cor de fundo do botão "Conheça nosso site" */
+    color: #FAF3E0; /* Texto creme */
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 12px; /* Bordas arredondadas */
     font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
 }
 
 #result a:hover {
-    background-color: #768076;
+    background-color: #800020; /* Cor de fundo bordô no hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra no hover */
+}
+
+#submit {
+    background-color: #800020; /* Cor de fundo bordô */
+    color: #FAF3E0; /* Texto creme */
+    border: none;
+    border-radius: 12px; /* Bordas arredondadas */
+    padding: 12px; /* Espaçamento interno */
+    width: 100%; /* Largura total */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+#submit:hover {
+    background-color: #2F4F4F; /* Cor verde escuro no hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra no hover */
 }
 
 @media (max-width: 600px) {
@@ -68,15 +88,25 @@ h1 {
         font-size: 6vw;
     }
 }
+
 .card-img-top {
     width: 100%; /* A imagem ocupa toda a largura do card */
     height: 200px; /* Altura fixa para as imagens */
     object-fit: cover; /* Cobre o espaço, cortando a imagem se necessário */
     border-radius: 5px; /* Bordas arredondadas para as imagens */
 }
+
 .fixed-size-image {
     width: 300px; /* Largura fixa */
     height: 300px; /* Altura fixa */
     object-fit: cover; /* Cobre a área da imagem mantendo o aspecto */
     border-radius: 10px; /* Bordas arredondadas para melhorar a aparência */
+}
+
+#footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #800020; /* Fundo bordô */
+    color: #FAF3E0; /* Texto creme */
 }

@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
         resultContainer.innerHTML = `
             <img src="${randomImage}" alt="Resultado" class="fixed-size-image mb-3">
             <br>
-            <a href="http://movimentoliterariodigital.atspace.cc/" target="_blank">Conheça nosso site</a>
+            <a id="visit-site" href="http://movimentoliterariodigital.atspace.cc/" target="_blank" class="btn w-100 mt-3" style="background-color: #800020; color: #FAF3E0; border: none;">Conheça nosso site</a>
         `;
     }
 });
