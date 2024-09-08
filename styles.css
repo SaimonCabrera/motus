@@ -109,4 +109,7 @@ h1,h2 {
     padding: 20px;
     background-color: #800020; /* Fundo bordô */
     color: #FAF3E0; /* Texto creme */
+    font-size: 10px; /* Tamanho da fonte ajustado para uma leitura confortável */
+    font-weight: 400; 
 }
+
